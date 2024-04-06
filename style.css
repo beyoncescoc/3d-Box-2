@@ -1,4 +1,4 @@
-*,
+*, 
 *::after,
 *::before {
   margin: 0;
@@ -28,4 +28,9 @@ body {
   width: 100%;
   height: 100%;
   background-color: #FAEDCD;
+}
+
+/* Add these new rules to target the Codepen container element and set the background color to white */
+.codepen-container {
+  background-color: white;
 }
